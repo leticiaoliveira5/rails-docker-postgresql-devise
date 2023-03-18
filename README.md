@@ -13,17 +13,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu risus varius ero
 
 Para testar, a melhor opção é usar o Docker. Pra isso, é necessário ter instalado na máquina o docker e docker compose.
 
-Clonado repositório, localmente, crie um arquivo `.env` na raiz do projeto, com este conteúdo:
-
-(isso será importante para a criação e conexão com o banco de dados postgres)
-
-```
-DATABASE_USER=postgres
-POSTGRES_PASSWORD=shark
-DATABASE_HOST=db
-DATABASE_PORT=5432
-```
-
 Agora execute os comandos no terminal:
 
 ```
