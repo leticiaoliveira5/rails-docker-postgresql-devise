@@ -5,7 +5,7 @@ services:
     volumes:
       - ./tmp/db:/var/lib/postgresql/data
     environment:
-      POSTGRES_PASSWORD: shark
+      POSTGRES_PASSWORD: postgres
   web:
       build:
         context: .
